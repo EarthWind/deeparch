@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-25T08:56:55.836Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="OPoRQvHfS2jiRxK2gkv1" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-25T08:57:36.713Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="vLwDN3S7dMWGVOn5V_3M" version="14.8.0" type="github">
   <diagram id="exuY5DLc0nuOLAwkTN-w" name="ceph_spdk_target">
-    <mxGraphModel dx="677" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />

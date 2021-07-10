@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-10T03:05:09.105Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="YjpqonYFkAAJWgNZsgQB" version="14.8.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-07-10T03:10:14.580Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="FWMs6e5-b4ptnJvWReAA" version="14.8.5" type="github" pages="5">
   <diagram id="_y_Mrvj1US2F2FZQUMwz" name="spdk_app">
     <mxGraphModel dx="1185" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -292,7 +292,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fychYBfefFzozo_t3OHu" name="reactor">
-    <mxGraphModel dx="981" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="813" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="PbBB4ZHrSykOLfAiHg2h-0" />
         <mxCell id="PbBB4ZHrSykOLfAiHg2h-1" parent="PbBB4ZHrSykOLfAiHg2h-0" />
@@ -602,45 +602,55 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mF3BgkjZg3bdafGx7fzc-0" value="SPDK_REACTOR_S&lt;br&gt;TATE_UNINITIALIZED" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PbBB4ZHrSykOLfAiHg2h-1">
-          <mxGeometry x="399.99000000000007" y="1400" width="120" height="40" as="geometry" />
+          <mxGeometry x="399.99000000000007" y="1040" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mF3BgkjZg3bdafGx7fzc-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="PbBB4ZHrSykOLfAiHg2h-1" source="mF3BgkjZg3bdafGx7fzc-1" target="mF3BgkjZg3bdafGx7fzc-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mF3BgkjZg3bdafGx7fzc-1" value="SPDK_REACTOR_&lt;br&gt;STATE_INITIALIZED" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PbBB4ZHrSykOLfAiHg2h-1">
-          <mxGeometry x="559.99" y="1400" width="120" height="40" as="geometry" />
+          <mxGeometry x="559.99" y="1040" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mF3BgkjZg3bdafGx7fzc-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="PbBB4ZHrSykOLfAiHg2h-1" source="mF3BgkjZg3bdafGx7fzc-2" target="mF3BgkjZg3bdafGx7fzc-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mF3BgkjZg3bdafGx7fzc-2" value="SPDK_REACTOR_&lt;br&gt;STATE_RUNNING" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PbBB4ZHrSykOLfAiHg2h-1">
-          <mxGeometry x="679.99" y="1460" width="120" height="40" as="geometry" />
+          <mxGeometry x="679.99" y="1100" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mF3BgkjZg3bdafGx7fzc-11" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=none;startFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="PbBB4ZHrSykOLfAiHg2h-1" source="mF3BgkjZg3bdafGx7fzc-3" target="mF3BgkjZg3bdafGx7fzc-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mF3BgkjZg3bdafGx7fzc-3" value="SPDK_REACTOR_&lt;br&gt;STATE_EXITING" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PbBB4ZHrSykOLfAiHg2h-1">
-          <mxGeometry x="560" y="1520" width="120" height="40" as="geometry" />
+          <mxGeometry x="560" y="1160" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mF3BgkjZg3bdafGx7fzc-18" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="PbBB4ZHrSykOLfAiHg2h-1" source="mF3BgkjZg3bdafGx7fzc-4" target="mF3BgkjZg3bdafGx7fzc-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mF3BgkjZg3bdafGx7fzc-4" value="SPDK_REACTOR_&lt;br&gt;STATE_SHUTDOWN" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="PbBB4ZHrSykOLfAiHg2h-1">
-          <mxGeometry x="400.00000000000006" y="1520" width="120" height="40" as="geometry" />
+          <mxGeometry x="400.00000000000006" y="1160" width="120" height="40" as="geometry" />
         </mxCell>
         <UserObject label="spdk_reactors_start" placeholders="1" name="Variable" id="mF3BgkjZg3bdafGx7fzc-13">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;sketch=1;fillWeight=1;hachureGap=4;" vertex="1" parent="PbBB4ZHrSykOLfAiHg2h-1">
-            <mxGeometry x="680" y="1430" width="120" height="20" as="geometry" />
+            <mxGeometry x="680" y="1070" width="120" height="20" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="spdk_reactors_init" placeholders="1" name="Variable" id="mF3BgkjZg3bdafGx7fzc-14">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;sketch=1;fillWeight=1;hachureGap=4;" vertex="1" parent="PbBB4ZHrSykOLfAiHg2h-1">
-            <mxGeometry x="480" y="1360" width="120" height="20" as="geometry" />
+            <mxGeometry x="480" y="1000" width="120" height="20" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="spdk_reactors_stop" placeholders="1" name="Variable" id="mF3BgkjZg3bdafGx7fzc-20">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;sketch=1;fillWeight=1;hachureGap=4;" vertex="1" parent="PbBB4ZHrSykOLfAiHg2h-1">
-            <mxGeometry x="680" y="1510" width="120" height="20" as="geometry" />
+            <mxGeometry x="680" y="1150" width="120" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="spdk_env_thread_wait_all(exit)" placeholders="1" name="Variable" id="mF3BgkjZg3bdafGx7fzc-21">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;sketch=1;fillWeight=1;hachureGap=4;" vertex="1" parent="PbBB4ZHrSykOLfAiHg2h-1">
+            <mxGeometry x="452.5" y="1220" width="175" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="spdk_reactors_fini" placeholders="1" name="Variable" id="mF3BgkjZg3bdafGx7fzc-23">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;sketch=1;fillWeight=1;hachureGap=4;" vertex="1" parent="PbBB4ZHrSykOLfAiHg2h-1">
+            <mxGeometry x="380" y="1110" width="120" height="20" as="geometry" />
           </mxCell>
         </UserObject>
       </root>

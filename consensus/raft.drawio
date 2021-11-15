@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T12:37:54.325Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="GVU4fFzKUCTcg5zTZbQ-" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-15T13:33:42.666Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="uZGkGgYh1G4Apuf-wWAe" version="15.7.3" type="github">
   <diagram id="-Qpq79jEVsmDyqS9F8ka" name="raft">
-    <mxGraphModel dx="1185" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="743" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -332,13 +332,13 @@
         <mxCell id="b-UJ_pfdfNBNcFtkT3sI-136" value="terms" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="425" y="670" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="GCiCYlL7cHLwjU2prtwW-1" value="Log Replication" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="GCiCYlL7cHLwjU2prtwW-1" value="Log Replication" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=0;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="80" y="920" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GCiCYlL7cHLwjU2prtwW-2" value="Leader Election" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="GCiCYlL7cHLwjU2prtwW-2" value="Leader Election" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=0;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="80" y="880" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GCiCYlL7cHLwjU2prtwW-3" value="Safety" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="GCiCYlL7cHLwjU2prtwW-3" value="Safety" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=0;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="80" y="960" width="120" height="40" as="geometry" />
         </mxCell>
       </root>

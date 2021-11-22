@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-22T12:38:23.994Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="vPyhBbPcd2aggHgJFHOK" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-22T12:41:07.715Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="vP2_QufhespFrWSWZ-9t" version="15.8.2" type="github">
   <diagram id="DqvrZvTYtXs4QAJ5su69" name="BlockDevice">
     <mxGraphModel dx="981" dy="1784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -142,11 +142,11 @@
         <mxCell id="DhMVAHyqI12-vM33ISoA-42" value="submit_batch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="300" y="270" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DhMVAHyqI12-vM33ISoA-43" value="with buffer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="50" y="200" width="70" height="20" as="geometry" />
+        <mxCell id="DhMVAHyqI12-vM33ISoA-43" value="read/write&lt;br&gt;buffer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="195" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DhMVAHyqI12-vM33ISoA-46" value="without buffer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="130" y="200" width="90" height="20" as="geometry" />
+        <mxCell id="DhMVAHyqI12-vM33ISoA-46" value="read/write&lt;br&gt;no buffer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="195" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

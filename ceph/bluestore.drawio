@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-24T13:23:58.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="IVS--MkSXyX1Pe8PH9AY" version="15.8.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-24T13:24:13.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="yRJs6Eo2EsejPcHOs_Ct" version="15.8.2" type="github" pages="2">
   <diagram id="DqvrZvTYtXs4QAJ5su69" name="BlockDevice">
     <mxGraphModel dx="813" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -254,6 +254,12 @@
         </mxCell>
         <mxCell id="yiR3UyLSRvscjtLVexUj-46" value=". . ." style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=1;fillColor=#FFFFFF;strokeColor=#82b366;" vertex="1" parent="SYKb6uL51fbR0wUxXqhg-1">
           <mxGeometry x="360" y="240" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yiR3UyLSRvscjtLVexUj-47" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;sketch=1;fillWeight=1;hachureGap=2;fillColor=#FFFFFF;rotation=-90;strokeWidth=2;" vertex="1" parent="SYKb6uL51fbR0wUxXqhg-1">
+          <mxGeometry x="250" y="150" width="20" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="yiR3UyLSRvscjtLVexUj-48" value="slotset(8*slot=512bit)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="SYKb6uL51fbR0wUxXqhg-1">
+          <mxGeometry x="195" y="300" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

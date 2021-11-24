@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-23T04:43:11.071Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="Pu0JTmDxzwEhd7WUAxoH" version="15.8.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-24T13:14:36.555Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="t9E-VsJKV12oUSsvfzpQ" version="15.8.2" type="github" pages="2">
   <diagram id="DqvrZvTYtXs4QAJ5su69" name="BlockDevice">
-    <mxGraphModel dx="677" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="813" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -158,10 +158,46 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UDpGuWqJJNFm4kcmysNA" name="BitmapAllocator">
-    <mxGraphModel dx="1422" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="813" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="SYKb6uL51fbR0wUxXqhg-0" />
         <mxCell id="SYKb6uL51fbR0wUxXqhg-1" parent="SYKb6uL51fbR0wUxXqhg-0" />
+        <mxCell id="yiR3UyLSRvscjtLVexUj-0" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=1;" vertex="1" parent="SYKb6uL51fbR0wUxXqhg-1">
+          <mxGeometry x="120" y="120" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yiR3UyLSRvscjtLVexUj-1" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=1;" vertex="1" parent="SYKb6uL51fbR0wUxXqhg-1">
+          <mxGeometry x="130" y="120" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yiR3UyLSRvscjtLVexUj-2" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=1;" vertex="1" parent="SYKb6uL51fbR0wUxXqhg-1">
+          <mxGeometry x="140" y="120" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yiR3UyLSRvscjtLVexUj-3" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=1;" vertex="1" parent="SYKb6uL51fbR0wUxXqhg-1">
+          <mxGeometry x="150" y="120" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yiR3UyLSRvscjtLVexUj-4" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=1;" vertex="1" parent="SYKb6uL51fbR0wUxXqhg-1">
+          <mxGeometry x="160" y="120" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yiR3UyLSRvscjtLVexUj-5" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=1;" vertex="1" parent="SYKb6uL51fbR0wUxXqhg-1">
+          <mxGeometry x="170" y="120" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yiR3UyLSRvscjtLVexUj-6" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=1;" vertex="1" parent="SYKb6uL51fbR0wUxXqhg-1">
+          <mxGeometry x="180" y="120" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yiR3UyLSRvscjtLVexUj-7" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=1;" vertex="1" parent="SYKb6uL51fbR0wUxXqhg-1">
+          <mxGeometry x="190" y="120" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yiR3UyLSRvscjtLVexUj-17" value="bit" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=1;" vertex="1" parent="SYKb6uL51fbR0wUxXqhg-1">
+          <mxGeometry x="200" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yiR3UyLSRvscjtLVexUj-18" value=". . ." style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=1;" vertex="1" parent="SYKb6uL51fbR0wUxXqhg-1">
+          <mxGeometry x="240" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yiR3UyLSRvscjtLVexUj-19" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fillWeight=1;hachureGap=2;fillColor=#67AB9F;rotation=-90;sketch=1;" vertex="1" parent="SYKb6uL51fbR0wUxXqhg-1">
+          <mxGeometry x="190" y="30" width="20" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yiR3UyLSRvscjtLVexUj-20" value="slot(64 x bit)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="SYKb6uL51fbR0wUxXqhg-1">
+          <mxGeometry x="160" y="80" width="80" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

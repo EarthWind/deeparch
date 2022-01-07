@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-12T06:25:25.370Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="K13nkR3XbGFc_Zru8NJs" version="15.8.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-07T08:02:20.567Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="2j8HBUFzycN1m6eSVFDf" version="16.1.4" type="github" pages="3">
   <diagram id="j9tczcpYgf1cjmY0chsA" name="Bluestore">
-    <mxGraphModel dx="1422" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="BIpUgeOPZDZItEemV4BS-0" />
         <mxCell id="BIpUgeOPZDZItEemV4BS-1" parent="BIpUgeOPZDZItEemV4BS-0" />
@@ -134,7 +134,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DqvrZvTYtXs4QAJ5su69" name="BlockDevice">
-    <mxGraphModel dx="981" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -292,7 +292,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UDpGuWqJJNFm4kcmysNA" name="BitmapAllocator">
-    <mxGraphModel dx="981" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="SYKb6uL51fbR0wUxXqhg-0" />
         <mxCell id="SYKb6uL51fbR0wUxXqhg-1" parent="SYKb6uL51fbR0wUxXqhg-0" />

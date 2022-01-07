@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T10:16:51.876Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="plicHOsAjvXw2ROnuaAX" version="16.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-07T10:17:26.422Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="9Kw6IWmJ-y9WJpFxyVCu" version="16.1.4" type="github" pages="2">
   <diagram id="HN9V44DPd-k-v6iFl_iA" name="rbd">
     <mxGraphModel dx="981" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -262,7 +262,7 @@
             <mxPoint x="335" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cp7FxAjtmaHTFWbq74j_-15" value="redis server" style="rounded=1;whiteSpace=wrap;html=1;fillWeight=1;hachureGap=4;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ODaHLf_eHizouzZ-XU_A-1">
+        <mxCell id="cp7FxAjtmaHTFWbq74j_-15" value="redis server" style="rounded=1;whiteSpace=wrap;html=1;fillWeight=1;hachureGap=4;" vertex="1" parent="ODaHLf_eHizouzZ-XU_A-1">
           <mxGeometry x="220" y="80" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cp7FxAjtmaHTFWbq74j_-18" value="ceph" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ODaHLf_eHizouzZ-XU_A-1">

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-19T09:01:25.244Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="UbhBUPFs_5xZfiVPyqIN" version="16.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-19T09:05:09.504Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="oaTy-3K_ZumOMwbsEM0o" version="16.5.5" type="github">
   <diagram id="gPGmmSkIuNM7hHSW2nEX" name="ceph-mon">
     <mxGraphModel dx="813" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -243,6 +243,30 @@
         </mxCell>
         <mxCell id="hZt0JMwIf0L2Fr2vzAB7-77" value="op_victory" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="130" y="620" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hZt0JMwIf0L2Fr2vzAB7-78" value="STATE_&lt;br&gt;RECOVERING" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hZt0JMwIf0L2Fr2vzAB7-79" value="STATE_&lt;br&gt;ACTIVE" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="199.49" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hZt0JMwIf0L2Fr2vzAB7-80" value="STATE_&lt;br&gt;UPDATING" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="359.97" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hZt0JMwIf0L2Fr2vzAB7-81" value="STATE_&lt;br&gt;UPDATING_PREVIOUS" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="920" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hZt0JMwIf0L2Fr2vzAB7-82" value="STATE_&lt;br&gt;WRITING" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="239.97" y="920" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hZt0JMwIf0L2Fr2vzAB7-83" value="STATE_&lt;br&gt;WRITING_PREVIOUS" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="399.49" y="920" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hZt0JMwIf0L2Fr2vzAB7-84" value="STATE_&lt;br&gt;REFRESH" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1000" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hZt0JMwIf0L2Fr2vzAB7-85" value="STATE_&lt;br&gt;SHUTDOWN" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1000" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

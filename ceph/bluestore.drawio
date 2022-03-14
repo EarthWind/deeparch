@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T07:48:13.682Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="Evj4H7fpsaY-WEkUBthr" version="17.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-14T07:52:50.065Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="Da8ym-czOGLj4Yek3_AX" version="17.1.2" type="github" pages="3">
   <diagram id="j9tczcpYgf1cjmY0chsA" name="Bluestore">
-    <mxGraphModel dx="1185" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="677" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="BIpUgeOPZDZItEemV4BS-0" />
         <mxCell id="BIpUgeOPZDZItEemV4BS-1" parent="BIpUgeOPZDZItEemV4BS-0" />
@@ -94,7 +94,7 @@
           <mxGeometry x="169" y="690" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Xswfduh4RDCCl3qBwlAw-19" value="&lt;span&gt;disk&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=0;fontStyle=0;" parent="BIpUgeOPZDZItEemV4BS-1" vertex="1">
-          <mxGeometry x="120" y="770" width="200" height="30" as="geometry" />
+          <mxGeometry x="120" y="770" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Xswfduh4RDCCl3qBwlAw-21" value="offset + length" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="BIpUgeOPZDZItEemV4BS-1" vertex="1">
           <mxGeometry x="160" y="750" width="90" height="20" as="geometry" />

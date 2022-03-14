@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T07:36:31.868Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="9G-M2ANLeWrtZE0qpE1H" version="17.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-14T07:36:44.120Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="FEsvwPk53ELmkzDQUdPa" version="17.1.2" type="github" pages="3">
   <diagram id="j9tczcpYgf1cjmY0chsA" name="Bluestore">
-    <mxGraphModel dx="677" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="BIpUgeOPZDZItEemV4BS-0" />
         <mxCell id="BIpUgeOPZDZItEemV4BS-1" parent="BIpUgeOPZDZItEemV4BS-0" />

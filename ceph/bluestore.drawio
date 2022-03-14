@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T08:02:33.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="LLW0yRi9eZq6OhUhCrRV" version="17.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-14T08:22:30.371Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="Io5IW9Pb-n0jZzy2s7iQ" version="17.1.2" type="github" pages="3">
   <diagram id="j9tczcpYgf1cjmY0chsA" name="Bluestore">
     <mxGraphModel dx="813" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -311,6 +311,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DhMVAHyqI12-vM33ISoA-16" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="64" y="360" width="40" height="10" as="geometry" />
+        </mxCell>
         <mxCell id="DhMVAHyqI12-vM33ISoA-47" style="edgeStyle=elbowEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;elbow=vertical;" parent="1" source="DhMVAHyqI12-vM33ISoA-46" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="289" y="370" as="targetPoint" />
@@ -395,9 +398,6 @@
         <mxCell id="DhMVAHyqI12-vM33ISoA-15" value="aio_submit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="219" y="180" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DhMVAHyqI12-vM33ISoA-16" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="64" y="360" width="40" height="10" as="geometry" />
-        </mxCell>
         <mxCell id="DhMVAHyqI12-vM33ISoA-25" value="aio_thread&lt;br&gt;(bstore_aio)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="374" y="360" width="80" height="30" as="geometry" />
         </mxCell>
@@ -410,7 +410,7 @@
         <mxCell id="DhMVAHyqI12-vM33ISoA-27" value="aio_callback" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="439" y="200" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DhMVAHyqI12-vM33ISoA-30" value="aio_queue" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=0;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="DhMVAHyqI12-vM33ISoA-30" value="aio_queue" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=0;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="209" y="290" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DhMVAHyqI12-vM33ISoA-32" value="aio_t" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=1;hachureGap=4;hachureAngle=45;sketch=0;fillColor=#FFFFFF;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -435,7 +435,7 @@
           <mxGeometry x="79" y="210" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="DhMVAHyqI12-vM33ISoA-41" value="aio_submit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="299" y="260" width="70" height="20" as="geometry" />
+          <mxGeometry x="329" y="260" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="DhMVAHyqI12-vM33ISoA-42" value="submit_batch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="319" y="340" width="90" height="20" as="geometry" />

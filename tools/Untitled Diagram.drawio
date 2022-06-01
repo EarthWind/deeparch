@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T03:50:14.356Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="L_zpSIaG7DDZmQG6hamz" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-01T03:51:26.113Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="HA69N_yG_z0692Ee3mvw" version="18.1.3" type="github">
   <diagram id="vMxeByeMzCUiSNfpBySE" name="beegfs">
     <mxGraphModel dx="757" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -367,11 +367,8 @@
             <mxPoint x="530.2" y="800.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dOUqNgxCJLWoSc9xT5iU-159" value="inode store" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dOUqNgxCJLWoSc9xT5iU-159" value="metastore" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="810" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="dOUqNgxCJLWoSc9xT5iU-160" value="dentry store" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="860" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dOUqNgxCJLWoSc9xT5iU-163" value="心跳" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="810" width="80" height="40" as="geometry" />

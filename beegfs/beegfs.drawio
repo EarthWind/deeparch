@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T00:46:07.656Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="x6scrdsgGnjAAotn_1hz" version="18.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T00:47:40.930Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="8TsAY_ODqq7iwLIdeJvc" version="18.2.1" type="github">
   <diagram id="vMxeByeMzCUiSNfpBySE" name="beegfs">
-    <mxGraphModel dx="610" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="676" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1072,7 +1072,7 @@
         </mxCell>
         <mxCell id="jO0uP_cr14RkDVU0Fb3T-62" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="jO0uP_cr14RkDVU0Fb3T-49">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1370" y="335" as="targetPoint" />
+            <mxPoint x="1370" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jO0uP_cr14RkDVU0Fb3T-63" value="配额管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1125,7 +1125,7 @@
           <mxGeometry x="1140" y="330" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jO0uP_cr14RkDVU0Fb3T-79" value="thread pool" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1275" y="380" width="80" height="20" as="geometry" />
+          <mxGeometry x="1270" y="390" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jO0uP_cr14RkDVU0Fb3T-80" value="network" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="972.5" y="320" width="60" height="20" as="geometry" />
@@ -1490,19 +1490,19 @@
           <mxGeometry x="1110" y="1380.44" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jO0uP_cr14RkDVU0Fb3T-49" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="300" width="30" height="80" as="geometry" />
+          <mxGeometry x="1290" y="290" width="40" height="100" as="geometry" />
         </mxCell>
         <mxCell id="jO0uP_cr14RkDVU0Fb3T-50" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/download-128.png" vertex="1" parent="1">
-          <mxGeometry x="1305" y="300" width="20" height="20" as="geometry" />
+          <mxGeometry x="1300" y="300" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jO0uP_cr14RkDVU0Fb3T-51" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/download-128.png" vertex="1" parent="1">
-          <mxGeometry x="1305" y="340" width="20" height="20" as="geometry" />
+          <mxGeometry x="1300" y="340" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jO0uP_cr14RkDVU0Fb3T-52" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/download-128.png" vertex="1" parent="1">
-          <mxGeometry x="1305" y="360" width="20" height="20" as="geometry" />
+          <mxGeometry x="1300" y="360" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jO0uP_cr14RkDVU0Fb3T-53" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/download-128.png" vertex="1" parent="1">
-          <mxGeometry x="1305" y="320" width="20" height="20" as="geometry" />
+          <mxGeometry x="1300" y="320" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

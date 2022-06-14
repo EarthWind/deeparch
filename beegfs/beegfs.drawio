@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T06:08:23.770Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="lrPtwz3Si4woOGwwYgnZ" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-14T00:41:54.955Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="0cLZfbnGlxYm-5bwmxLc" version="20.0.1" type="github">
   <diagram id="vMxeByeMzCUiSNfpBySE" name="beegfs">
     <mxGraphModel dx="1183" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1105,7 +1105,7 @@
           <mxGeometry x="1031.5" y="310.45000000000005" width="77" height="19.55" as="geometry" />
         </mxCell>
         <mxCell id="jO0uP_cr14RkDVU0Fb3T-82" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=7;" parent="1" vertex="1">
-          <mxGeometry x="970" y="640" width="480" height="260" as="geometry" />
+          <mxGeometry x="970" y="640" width="650" height="260" as="geometry" />
         </mxCell>
         <mxCell id="jO0uP_cr14RkDVU0Fb3T-83" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="1" source="jO0uP_cr14RkDVU0Fb3T-86" target="jO0uP_cr14RkDVU0Fb3T-88" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1194,13 +1194,13 @@
           <mxGeometry x="1060" y="700" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jO0uP_cr14RkDVU0Fb3T-127" value="心跳服务" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="650" width="80" height="40" as="geometry" />
+          <mxGeometry x="1360" y="650" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jO0uP_cr14RkDVU0Fb3T-128" value="数据同步" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="700" width="80" height="40" as="geometry" />
+          <mxGeometry x="1490" y="650" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jO0uP_cr14RkDVU0Fb3T-129" value="metastore" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="750" width="80" height="40" as="geometry" />
+          <mxGeometry x="1360" y="700" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jO0uP_cr14RkDVU0Fb3T-130" value="network" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="970" y="680" width="60" height="20" as="geometry" />

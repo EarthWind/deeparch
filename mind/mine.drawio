@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-23T06:04:04.721Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="S9-fDHyJo5Z8eEfkJbER" version="20.0.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-23T06:10:04.486Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Ov2XPqFrS9uLU0EPGdHs" version="20.0.3" type="github" pages="4">
   <diagram id="WUahGxOWOcRJzkmeIZj4" name="cflag">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -150,6 +150,17 @@
         <mxCell id="1" parent="0" />
         <mxCell id="blhWIe86-e-4YHQ9w8_j-1" value="&lt;h1&gt;LightStore&lt;/h1&gt;&lt;p&gt;LightStore是基于spdk实现的的高性能块存储，提供给具有性能需求的容器化服务使用；它基于spdk的逻辑卷，不存在副本，对外可以暴露iscsi和nvme-of协议；&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="40" y="120" width="200" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Eq5nTzuJ-1-IJ7eDJD7h" name="FutureFS">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iQqjQuwWC5AqDqOrFl5u-1" value="&lt;h1&gt;FutureFS&lt;/h1&gt;&lt;p&gt;FutureFS高性能的文件存储，它具有如下的特性：&lt;/p&gt;&lt;p&gt;1.同时支持内核态和用户态客户端；&lt;/p&gt;&lt;p&gt;2.主要用于大数据训练场景对数据进行缓存；&lt;/p&gt;&lt;p&gt;3.支持和s3进行数据流动；&lt;/p&gt;&lt;p&gt;4.支持临时文件存储；&lt;/p&gt;&lt;p&gt;5.支持rdma；&lt;/p&gt;&lt;p&gt;6.支持磁盘和内存多种缓存引擎；&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="240" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

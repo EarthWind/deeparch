@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-25T09:04:33.242Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="nsWc3DJ9W2xqd1CKWL4X" version="20.0.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-25T09:10:18.535Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="NjWJtozbCB3RBWpiWiCd" version="20.0.3" type="github" pages="4">
   <diagram id="WUahGxOWOcRJzkmeIZj4" name="cflag">
     <mxGraphModel dx="946" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -155,12 +155,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Eq5nTzuJ-1-IJ7eDJD7h" name="FutureFS">
-    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="iQqjQuwWC5AqDqOrFl5u-1" value="&lt;h1&gt;FutureFS&lt;/h1&gt;&lt;p&gt;FutureFS高性能的文件存储，它具有如下的特性：&lt;/p&gt;&lt;p&gt;1.同时支持内核态和用户态客户端；&lt;/p&gt;&lt;p&gt;2.主要用于大数据训练场景对数据进行缓存；&lt;/p&gt;&lt;p&gt;3.支持和s3进行数据流动；&lt;/p&gt;&lt;p&gt;4.支持临时文件存储；&lt;/p&gt;&lt;p&gt;5.支持rdma；&lt;/p&gt;&lt;p&gt;6.支持磁盘和内存多种缓存引擎；&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="40" y="120" width="240" height="280" as="geometry" />
+        <mxCell id="iQqjQuwWC5AqDqOrFl5u-1" value="&lt;h1&gt;FutureFS&lt;/h1&gt;&lt;p&gt;FutureFS是高性能的缓存文件存储，它具有如下的特性：&lt;/p&gt;&lt;p&gt;1.同时支持内核态和用户态客户端；&lt;/p&gt;&lt;p&gt;2.主要用于大数据训练场景对数据进行缓存；&lt;/p&gt;&lt;p&gt;3.支持从s3和文件系统进行数据流动；&lt;/p&gt;&lt;p&gt;4.支持临时文件缓存；&lt;/p&gt;&lt;p&gt;5.支持rdma；&lt;/p&gt;&lt;p&gt;6.支持磁盘和内存多种缓存引擎；&lt;/p&gt;&lt;p&gt;7.支持rename；但不会应用到底层；&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="40" y="120" width="240" height="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

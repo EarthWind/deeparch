@@ -1,4 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2022-06-25T09:10:18.535Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="NjWJtozbCB3RBWpiWiCd" version="20.0.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-25T09:21:51.270Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="pEkElp0oc8Osxy7AiqbR" version="20.0.3" type="github" pages="5">
+  <diagram id="U4Nu8GGcWiv1kRkCQ7w2" name="mind">
+    <mxGraphModel dx="996" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_CoDJiDuj0JEbKZ1s801-1" value="&lt;br&gt;可以使用LSM的思想，简化日志的的管理，io先写入追加的日志中，然后应用到内存返回；最后异步的将脏数据写入后端随机存储；&lt;br&gt;优势：&lt;br&gt;1.统一管理日志；&lt;br&gt;2.无需对修改操作记录undo、redo日志&lt;br&gt;3.简化事务管理；&lt;br&gt;4.性能好；&lt;br&gt;&lt;br&gt;劣势：&lt;br&gt;1.需要引入额外的日志空间，会造成浪费；&lt;br&gt;2.如果随机存储性能差，内存消耗会比较大；" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="240" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="WUahGxOWOcRJzkmeIZj4" name="cflag">
     <mxGraphModel dx="946" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -159,7 +170,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="iQqjQuwWC5AqDqOrFl5u-1" value="&lt;h1&gt;FutureFS&lt;/h1&gt;&lt;p&gt;FutureFS是高性能的缓存文件存储，它具有如下的特性：&lt;/p&gt;&lt;p&gt;1.同时支持内核态和用户态客户端；&lt;/p&gt;&lt;p&gt;2.主要用于大数据训练场景对数据进行缓存；&lt;/p&gt;&lt;p&gt;3.支持从s3和文件系统进行数据流动；&lt;/p&gt;&lt;p&gt;4.支持临时文件缓存；&lt;/p&gt;&lt;p&gt;5.支持rdma；&lt;/p&gt;&lt;p&gt;6.支持磁盘和内存多种缓存引擎；&lt;/p&gt;&lt;p&gt;7.支持rename；但不会应用到底层；&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="iQqjQuwWC5AqDqOrFl5u-1" value="&lt;h1&gt;FutureFS(SuperFS)&lt;/h1&gt;&lt;p&gt;FutureFS是高性能的缓存文件存储，它具有如下的特性：&lt;/p&gt;&lt;p&gt;1.同时支持内核态和用户态客户端；&lt;/p&gt;&lt;p&gt;2.主要用于大数据训练场景对数据进行缓存；&lt;/p&gt;&lt;p&gt;3.支持从s3和文件系统进行数据流动；&lt;/p&gt;&lt;p&gt;4.支持临时文件缓存；&lt;/p&gt;&lt;p&gt;5.支持rdma；&lt;/p&gt;&lt;p&gt;6.支持磁盘和内存多种缓存引擎；&lt;/p&gt;&lt;p&gt;7.支持rename；但不会应用到底层；&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="40" y="120" width="240" height="290" as="geometry" />
         </mxCell>
       </root>

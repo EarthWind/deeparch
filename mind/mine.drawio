@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-27T02:00:49.775Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="43wNBlWaLIefWWeub1X3" version="20.0.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-27T02:02:43.028Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="zPq_5nEQ7ibebnl4gH1l" version="20.0.3" type="github" pages="5">
   <diagram id="U4Nu8GGcWiv1kRkCQ7w2" name="mind">
     <mxGraphModel dx="706" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -166,14 +166,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Eq5nTzuJ-1-IJ7eDJD7h" name="FutureFS">
-    <mxGraphModel dx="652" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="676" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3ashG2ZxY3rfWb0TG4UZ-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3ashG2ZxY3rfWb0TG4UZ-30" target="3ashG2ZxY3rfWb0TG4UZ-45">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="3ashG2ZxY3rfWb0TG4UZ-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="3ashG2ZxY3rfWb0TG4UZ-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="400" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="3ashG2ZxY3rfWb0TG4UZ-30" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="3ashG2ZxY3rfWb0TG4UZ-30" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="400" y="320" width="329.8" height="79.8" as="geometry" />
         </mxCell>
         <mxCell id="iQqjQuwWC5AqDqOrFl5u-1" value="&lt;h1&gt;FutureFS(SuperFS)&lt;/h1&gt;&lt;p&gt;FutureFS是高性能的缓存文件存储，它具有如下的特性：&lt;/p&gt;&lt;p&gt;1.同时支持内核态和用户态客户端；&lt;/p&gt;&lt;p&gt;2.主要用于大数据训练场景对数据进行缓存；&lt;/p&gt;&lt;p&gt;3.支持从s3和文件系统进行数据流动；&lt;/p&gt;&lt;p&gt;4.支持临时文件缓存；&lt;/p&gt;&lt;p&gt;5.支持rdma；&lt;/p&gt;&lt;p&gt;6.支持磁盘和内存多种缓存引擎；&lt;/p&gt;&lt;p&gt;7.支持rename；但不会应用到底层；&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontColor=#333333;" parent="1" vertex="1">

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T15:28:47.237Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="FcmdkSaKAsyzSF2FfDeT" version="20.2.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-10T15:40:46.929Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="7TvYLD8dYPotuhyI51p8" version="20.2.3" type="github" pages="5">
   <diagram id="vMxeByeMzCUiSNfpBySE" name="beegfs">
     <mxGraphModel dx="1878" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2790,7 +2790,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oeM11t_Smr7DP5owToYk" name="io">
-    <mxGraphModel dx="485" dy="331" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="860" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3036,6 +3036,33 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uvQ5asXCKzyjJ6PQ1coH-3" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;size=0.07407407407407407;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="240" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="uvQ5asXCKzyjJ6PQ1coH-4" value="集群组件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uvQ5asXCKzyjJ6PQ1coH-1" value="mgmtd&amp;nbsp; &amp;nbsp; &amp;nbsp;:&amp;nbsp; 负责集群的管理；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uvQ5asXCKzyjJ6PQ1coH-5" value="meta&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;:&amp;nbsp; 负责存储文件系统元数据；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="170" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uvQ5asXCKzyjJ6PQ1coH-6" value="storage&amp;nbsp; &amp;nbsp;:&amp;nbsp; 负责存储文件系统的数据；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uvQ5asXCKzyjJ6PQ1coH-7" value="module&amp;nbsp; &amp;nbsp;:&amp;nbsp; 内核态的文件系统客户端；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uvQ5asXCKzyjJ6PQ1coH-8" value="fuse&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; :&amp;nbsp; 用户态的文件系统客户端；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uvQ5asXCKzyjJ6PQ1coH-9" value="libfs&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; :&amp;nbsp; 文件系统的用户态接口库；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uvQ5asXCKzyjJ6PQ1coH-10" value="libadm&amp;nbsp; &amp;nbsp; &amp;nbsp; :&amp;nbsp; 文件系统管理接口库；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="35" y="320" width="210" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

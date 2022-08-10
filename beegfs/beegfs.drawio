@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T16:10:26.486Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="kDmmdpB-KJ8MRbPrWe0Q" version="20.2.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-10T16:11:14.262Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Pwymp15JxtYVB0J-Taxe" version="20.2.3" type="github" pages="5">
   <diagram id="vMxeByeMzCUiSNfpBySE" name="beegfs">
     <mxGraphModel dx="1878" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3225,7 +3225,7 @@
         <mxCell id="DRQA54GKSuTpcBOfypD6-14" value="&amp;nbsp;D#${target_id}#${parent_inode_id}#${dentry_name}" style="whiteSpace=wrap;html=1;align=left;strokeColor=none;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="510" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DRQA54GKSuTpcBOfypD6-16" value="&amp;nbsp;P#${target_id}" style="whiteSpace=wrap;html=1;align=left;strokeColor=none;rounded=0;dashed=1;" vertex="1" parent="1">
+        <mxCell id="DRQA54GKSuTpcBOfypD6-16" value="&amp;nbsp;T#${target_id}#${item_name}" style="whiteSpace=wrap;html=1;align=left;strokeColor=none;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="540" width="290" height="30" as="geometry" />
         </mxCell>
       </root>

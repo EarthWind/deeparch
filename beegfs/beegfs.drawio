@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-11T00:58:58.253Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="WmhdeJMdRseZT8CUscLK" version="20.2.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-11T01:09:43.854Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="406WxcwH7nG9td72kS52" version="20.2.3" type="github" pages="5">
   <diagram id="vMxeByeMzCUiSNfpBySE" name="beegfs">
     <mxGraphModel dx="1878" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3050,7 +3050,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Agy_NEfa9Sj4WVSLnE7p" name="info">
-    <mxGraphModel dx="901" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3285,8 +3285,11 @@
         <mxCell id="lYapHVFSNcWPRnayA1GS-5" value="&amp;nbsp;T#{target_id}#{inode_id}" style="whiteSpace=wrap;html=1;align=left;strokeColor=none;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="1090" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TAMkJzd8NsTJL6mZzcFX-5" value="&lt;h1&gt;node_info&lt;/h1&gt;&lt;p&gt;id_(int):&amp;nbsp;&lt;/p&gt;&lt;p&gt;type_(int):&amp;nbsp;&lt;/p&gt;&lt;p&gt;host_name_(string):&amp;nbsp;&lt;/p&gt;&lt;p&gt;ip_(string):&amp;nbsp;&lt;/p&gt;&lt;p&gt;os_(string):&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;network_(string):&amp;nbsp;&lt;/p&gt;&lt;p&gt;cpu_(string):&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p&gt;memory_total_(int64):&amp;nbsp;&lt;/p&gt;&lt;p&gt;memory_used_(int64):&amp;nbsp;&lt;/p&gt;&lt;p&gt;capacity_total_(int64):&amp;nbsp;&lt;/p&gt;&lt;p&gt;capacity_used_(int64):&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="880" y="120" width="200" height="340" as="geometry" />
+        <mxCell id="TAMkJzd8NsTJL6mZzcFX-5" value="&lt;h1&gt;node_info&lt;/h1&gt;&lt;p&gt;key&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;N#{id}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;value&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;id_(int):&amp;nbsp;&lt;/p&gt;&lt;p&gt;status_(int):&amp;nbsp;&lt;/p&gt;&lt;p&gt;type_(int):&amp;nbsp;&lt;/p&gt;&lt;p&gt;host_name_(string):&amp;nbsp;&lt;/p&gt;&lt;p&gt;ip_(string):&amp;nbsp;&lt;/p&gt;&lt;p&gt;os_(string):&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;network_(string):&amp;nbsp;&lt;/p&gt;&lt;p&gt;cpu_(string):&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p&gt;memory_total_(int64):&amp;nbsp;&lt;/p&gt;&lt;p&gt;memory_used_(int64):&amp;nbsp;&lt;/p&gt;&lt;p&gt;capacity_total_(int64):&amp;nbsp;&lt;/p&gt;&lt;p&gt;capacity_used_(int64):&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="120" width="200" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="TAMkJzd8NsTJL6mZzcFX-6" value="&lt;h1&gt;topo_info&lt;/h1&gt;&lt;p&gt;key&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;T#{id}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;value&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;id_(int):&amp;nbsp;&lt;/p&gt;&lt;p&gt;name_(int):&amp;nbsp;&lt;/p&gt;&lt;p&gt;type_(int):&amp;nbsp;&lt;/p&gt;&lt;p&gt;items([int])&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="120" width="200" height="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

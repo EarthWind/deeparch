@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-14T08:18:36.344Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="UZJ50eLHG7N2_qfU0YLd" version="20.2.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-14T08:28:28.781Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="pR1-YPMG9FnytLmrnyTb" version="20.2.3" type="github" pages="5">
   <diagram id="vMxeByeMzCUiSNfpBySE" name="beegfs">
     <mxGraphModel dx="3996" dy="1836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1712,7 +1712,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KafzyaELC61OC0U0zYmS" name="beegfs-new">
-    <mxGraphModel dx="2037" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3169" dy="1836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3048,7 +3048,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Agy_NEfa9Sj4WVSLnE7p" name="info">
-    <mxGraphModel dx="1783" dy="1033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1901" dy="1101" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3292,8 +3292,8 @@
         <mxCell id="MDlxnBpE_yIYOa64z0Fj-1" value="&lt;h1&gt;pool_info&lt;/h1&gt;&lt;p&gt;key&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;P#{id}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;value&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;id_(int32):&amp;nbsp;&lt;/p&gt;&lt;p&gt;name_(sting):&amp;nbsp;&lt;/p&gt;&lt;p&gt;topo_name_(string):&amp;nbsp;&lt;/p&gt;&lt;p&gt;replicator_type_(string):&lt;/p&gt;&lt;p&gt;replicator_resource_(string):&lt;/p&gt;&lt;p&gt;create_time_(string):&lt;/p&gt;&lt;p&gt;update_time_(string):&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1240" y="80" width="200" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="MDlxnBpE_yIYOa64z0Fj-2" value="&lt;h1&gt;target_info&lt;/h1&gt;&lt;p&gt;key&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;T#{id}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;value&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;id_(int32):&amp;nbsp;&lt;/p&gt;&lt;p&gt;filesystem_id_(int32):&lt;/p&gt;&lt;p&gt;replicas_([int]):&lt;/p&gt;&lt;p&gt;inode_number_(int64):&amp;nbsp;&lt;/p&gt;&lt;p&gt;meta_size(int64):&lt;/p&gt;&lt;p&gt;meta_capacity_(64):&lt;/p&gt;&lt;p&gt;min_blob_number_(int64):&lt;/p&gt;&lt;p&gt;merge_blobl_number_(int64):&lt;/p&gt;&lt;p&gt;large_blob_number_(int64):&amp;nbsp;&lt;/p&gt;&lt;p&gt;replicator_type_(string):&lt;/p&gt;&lt;p&gt;replicator_resource(string):&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1440" y="75" width="200" height="520" as="geometry" />
+        <mxCell id="MDlxnBpE_yIYOa64z0Fj-2" value="&lt;h1&gt;target_info&lt;/h1&gt;&lt;p&gt;key&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;T#{id}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;value&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;id_(int32):&amp;nbsp;&lt;/p&gt;&lt;p&gt;filesystem_id_(int32):&lt;/p&gt;&lt;p&gt;replicas_([int]):&lt;/p&gt;&lt;p&gt;inode_number_(int64):&amp;nbsp;&lt;/p&gt;&lt;p&gt;replicator_type_(string):&lt;/p&gt;&lt;p&gt;replicator_resource(string):&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="80" width="200" height="520" as="geometry" />
         </mxCell>
         <mxCell id="MDlxnBpE_yIYOa64z0Fj-3" value="&lt;h1&gt;filesystem_info&lt;/h1&gt;&lt;p&gt;key&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;F#{id}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;value&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;id_(int32):&amp;nbsp;&lt;/p&gt;&lt;p&gt;version_(int32)&lt;/p&gt;&lt;p&gt;name_(string):&lt;/p&gt;&lt;p&gt;capacity_(int64):&lt;/p&gt;&lt;p&gt;targets_([int32]):&lt;/p&gt;&lt;p&gt;user_id_(int32):&amp;nbsp;&lt;/p&gt;&lt;p&gt;status_(int32):&lt;/p&gt;&lt;p&gt;create_time_(string):&amp;nbsp;&lt;/p&gt;&lt;p&gt;update_time_(string):&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="840" y="720" width="200" height="439" as="geometry" />
@@ -3709,10 +3709,16 @@
           <mxGeometry x="560" y="80" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="j4QxTRbCZKW6qkdufdvY-4" value="&lt;h1&gt;msg_register&lt;/h1&gt;&lt;div&gt;id_(int32):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;type_(int32):&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;host_name_(string):&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ip_(string):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;os_(string):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;network_(string):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;cpu_(string):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;memory_total_(int64)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;capacity_total_(int64)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="360" width="200" height="320" as="geometry" />
+          <mxGeometry x="760" y="80" width="200" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="DkHpSJ9_mcbf-rLI0Hqa-1" value="&lt;h1&gt;msg_heartbeat&lt;/h1&gt;&lt;div&gt;id_(int32):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;type_(int32):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;memory_used_(int64):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;capacity_used_(int64):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;target_number_(int32):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;recv_req_number_(int64):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;send_req_number_(int64):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;recv_bytes_(int64):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;send_bytes_(int64):&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="360" width="200" height="320" as="geometry" />
+        <mxCell id="DkHpSJ9_mcbf-rLI0Hqa-1" value="&lt;h1&gt;msg_heartbeat&lt;/h1&gt;&lt;div&gt;id_(int32):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;type_(int32):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;memory_used_(int64):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;capacity_used_(int64):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;target_number_(int32):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;recv_req_number_(int64):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;send_req_number_(int64):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;recv_bytes_(int64):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;send_bytes_(int64):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;metrics_(string):&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="80" width="200" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="BxbIN9sQ5XL0HAxbNuyC-1" value="&lt;h1&gt;msg_add_target&lt;/h1&gt;&lt;div&gt;id_(int32):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;replicas_([int32]):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;replicator_type_(string):&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;replicator_resource_(string):&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="80" width="200" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="kB2hdgay9f9x08jl1Uef-1" value="&lt;h1&gt;target_info&lt;/h1&gt;&lt;p&gt;key&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;T#{id}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;value&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;id_(int32):&amp;nbsp;&lt;/p&gt;&lt;p&gt;filesystem_id_(int32):&lt;/p&gt;&lt;p&gt;replicas_([int32]):&lt;/p&gt;&lt;p&gt;inode_number_(int64):&amp;nbsp;&lt;/p&gt;&lt;p&gt;meta_size(int64):&lt;/p&gt;&lt;p&gt;meta_capacity_(64):&lt;/p&gt;&lt;p&gt;min_blob_number_(int64):&lt;/p&gt;&lt;p&gt;merge_blobl_number_(int64):&lt;/p&gt;&lt;p&gt;large_blob_number_(int64):&amp;nbsp;&lt;/p&gt;&lt;p&gt;replicator_type_(string):&lt;/p&gt;&lt;p&gt;replicator_resource_(string):&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="80" width="200" height="520" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

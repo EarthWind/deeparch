@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T07:07:39.000Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="PW-lM3DUzPL72xP7vRhf" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-08T07:21:53.350Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="nMoCXF0qkmpeKd8JvJry" version="20.2.7" type="github">
   <diagram id="F73w34i6j-NFK2KWD3ty" name="第 1 页">
-    <mxGraphModel dx="1783" dy="1033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1901" dy="1101" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -642,11 +642,83 @@
         <mxCell id="IVAJbTdzAA0MmZZfQ6da-217" value="DONE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="230" y="1725" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="IVAJbTdzAA0MmZZfQ6da-226" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IVAJbTdzAA0MmZZfQ6da-219" target="IVAJbTdzAA0MmZZfQ6da-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IVAJbTdzAA0MmZZfQ6da-232" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IVAJbTdzAA0MmZZfQ6da-219" target="IVAJbTdzAA0MmZZfQ6da-227">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IVAJbTdzAA0MmZZfQ6da-241" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.501;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IVAJbTdzAA0MmZZfQ6da-219" target="IVAJbTdzAA0MmZZfQ6da-233">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="1380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IVAJbTdzAA0MmZZfQ6da-246" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IVAJbTdzAA0MmZZfQ6da-219" target="IVAJbTdzAA0MmZZfQ6da-242">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="1440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IVAJbTdzAA0MmZZfQ6da-219" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="920" y="1240" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IVAJbTdzAA0MmZZfQ6da-220" value="RETRYWAIT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="935" y="1245" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IVAJbTdzAA0MmZZfQ6da-225" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IVAJbTdzAA0MmZZfQ6da-222" target="IVAJbTdzAA0MmZZfQ6da-223">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IVAJbTdzAA0MmZZfQ6da-222" value="无法获取target并且不存在mirror ||&lt;br&gt;target状态异常" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1240" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IVAJbTdzAA0MmZZfQ6da-223" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IVAJbTdzAA0MmZZfQ6da-224" value="DONE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="1245" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IVAJbTdzAA0MmZZfQ6da-231" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IVAJbTdzAA0MmZZfQ6da-227" target="IVAJbTdzAA0MmZZfQ6da-228">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IVAJbTdzAA0MmZZfQ6da-227" value="CK_RETRY_BUDDY_FULLBACK&lt;br&gt;&amp;amp;&amp;amp; mirror状态正常" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1121" y="1300" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IVAJbTdzAA0MmZZfQ6da-228" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IVAJbTdzAA0MmZZfQ6da-229" value="PREPARE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="1305" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IVAJbTdzAA0MmZZfQ6da-240" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IVAJbTdzAA0MmZZfQ6da-233" target="IVAJbTdzAA0MmZZfQ6da-238">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IVAJbTdzAA0MmZZfQ6da-233" value="如果是mirror模式 &amp;amp;&amp;amp; target状态异常" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1360" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IVAJbTdzAA0MmZZfQ6da-238" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IVAJbTdzAA0MmZZfQ6da-239" value="PREPARE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="1365" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IVAJbTdzAA0MmZZfQ6da-245" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IVAJbTdzAA0MmZZfQ6da-242" target="IVAJbTdzAA0MmZZfQ6da-243">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IVAJbTdzAA0MmZZfQ6da-242" value="nodeResult == -AGAIN&lt;br&gt;flags &amp;amp; CK_RETRY_LOOP_EAGIN" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1420" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IVAJbTdzAA0MmZZfQ6da-243" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IVAJbTdzAA0MmZZfQ6da-244" value="PREPARE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="1425" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

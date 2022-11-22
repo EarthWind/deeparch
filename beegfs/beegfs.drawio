@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T13:54:43.438Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="SKZY5QDiCQYhlJXJqN_B" version="20.5.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-11-22T13:55:37.162Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="LLVkYZ1xRCxM4Onzkrpw" version="20.5.3" type="github" pages="8">
   <diagram id="C_5Fcq_7KUl-S_aVq9c4" name="beegfs">
     <mxGraphModel dx="2066" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -899,7 +899,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="iGqVcNiFRFqb9BSZEkAx-3" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=7;" parent="1" vertex="1">
-          <mxGeometry x="109.5" y="80" width="570.5" height="169.46" as="geometry" />
+          <mxGeometry x="109.5" y="80" width="580.5" height="169.46" as="geometry" />
         </mxCell>
         <mxCell id="iGqVcNiFRFqb9BSZEkAx-4" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="1" source="iGqVcNiFRFqb9BSZEkAx-7" target="iGqVcNiFRFqb9BSZEkAx-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1248,6 +1248,20 @@
             <mxPoint x="410.0000000000002" y="350.7000000000001" as="sourcePoint" />
             <mxPoint x="450" y="375.51818181818186" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="LUG0jGGYOWvUypRxugfd-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LUG0jGGYOWvUypRxugfd-3" target="LUG0jGGYOWvUypRxugfd-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="287.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUG0jGGYOWvUypRxugfd-2" value="disk" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=5.076923076922981;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="640" y="140" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LUG0jGGYOWvUypRxugfd-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://icon-library.com/images/folder-icon-files/folder-icon-files-21.jpg;" vertex="1" parent="1">
+          <mxGeometry x="600" y="150" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LUG0jGGYOWvUypRxugfd-4" value="/data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="593.8199999999999" y="172.5" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

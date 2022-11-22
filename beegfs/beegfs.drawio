@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T05:36:10.475Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ME_7sdJ-fe-bsdZBU4nY" version="20.5.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-11-22T05:36:36.806Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="5WUn4Cbu7pbOicM1h92B" version="20.5.3" type="github" pages="8">
   <diagram id="C_5Fcq_7KUl-S_aVq9c4" name="beegfs">
     <mxGraphModel dx="2066" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -106,7 +106,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6yMnnPiQc5VsyXAdnY8m" name="mgmtd">
-    <mxGraphModel dx="689" dy="275" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1476" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -383,7 +383,7 @@
         <mxCell id="nrl0gh5ER-7M5-DgF3Rj-35" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="430" y="370" width="40" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="nrl0gh5ER-7M5-DgF3Rj-36" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="nrl0gh5ER-7M5-DgF3Rj-35" vertex="1">
+        <mxCell id="nrl0gh5ER-7M5-DgF3Rj-36" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#666666;" parent="nrl0gh5ER-7M5-DgF3Rj-35" vertex="1">
           <mxGeometry width="40" height="100" as="geometry" />
         </mxCell>
         <mxCell id="nrl0gh5ER-7M5-DgF3Rj-37" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/download-128.png" parent="nrl0gh5ER-7M5-DgF3Rj-35" vertex="1">
@@ -437,7 +437,7 @@
         <mxCell id="nrl0gh5ER-7M5-DgF3Rj-54" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="290" y="400" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nrl0gh5ER-7M5-DgF3Rj-55" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="nrl0gh5ER-7M5-DgF3Rj-54" vertex="1">
+        <mxCell id="nrl0gh5ER-7M5-DgF3Rj-55" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#666666;" parent="nrl0gh5ER-7M5-DgF3Rj-54" vertex="1">
           <mxGeometry width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nrl0gh5ER-7M5-DgF3Rj-56" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=message;" parent="nrl0gh5ER-7M5-DgF3Rj-54" vertex="1">

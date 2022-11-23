@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-23T06:56:24.775Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="3cegqI9PMMgiDnY8YkW9" version="20.5.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-11-23T12:11:52.047Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="KP2405EJ04_qJgeIdhp7" version="20.5.3" type="github" pages="8">
   <diagram id="C_5Fcq_7KUl-S_aVq9c4" name="beegfs">
     <mxGraphModel dx="2066" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -818,9 +818,6 @@
             <mxPoint x="290.0000000000002" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-aN7L9NPOzwt5_F2mUZ--1" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="299" y="128" width="100" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="N_ZgbF_q1iuH9xjSuZ-i-26" value="message queue" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="290" y="189" width="100" height="20" as="geometry" />
         </mxCell>
@@ -846,9 +843,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400.0000000000002" y="110" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="-aN7L9NPOzwt5_F2mUZ--2" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="299" y="368" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="N_ZgbF_q1iuH9xjSuZ-i-149" value="" style="group;fillColor=none;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="290" y="360" width="100" height="40" as="geometry" />

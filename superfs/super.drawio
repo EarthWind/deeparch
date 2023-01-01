@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-01T13:52:22.095Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="RWRaT6R1jaJyoFbxCu-3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-01-01T13:56:12.368Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="8H1Q4AOpKIWQn6IwLDBF" type="github" pages="6">
   <diagram id="nIT_IkrwmGnnsX0-wiIh" name="arch">
     <mxGraphModel dx="1975" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1405,7 +1405,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WeY81zK9zEwdkeu0PSHA" name="superfs-meta">
-    <mxGraphModel dx="1257" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2765" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1565,6 +1565,24 @@
         </mxCell>
         <mxCell id="QsN0EtAbBI4lgYG-HQd3-48" value="meta server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="369" y="50" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_BSQofPdGsiH7_2sjt9j-2" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;inode_info&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;key&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;I#{id}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;value&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;id_(int64):&amp;nbsp;&lt;/p&gt;&lt;p&gt;pid_(int64):&lt;/p&gt;&lt;p&gt;size_(int64):&lt;/p&gt;&lt;p&gt;mode_(int32):&lt;/p&gt;&lt;p&gt;nlink_(int32)&lt;/p&gt;&lt;p&gt;uid_(int32):&amp;nbsp;&lt;/p&gt;&lt;p&gt;gid_(int32):&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;create_time_(int64):&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;access_time_(int64):&lt;/p&gt;&lt;p&gt;modify_time_(int64):&amp;nbsp;&lt;/p&gt;target_id_(int):&amp;nbsp;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;link_target_(string):&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="80" width="200" height="558" as="geometry" />
+        </mxCell>
+        <mxCell id="_BSQofPdGsiH7_2sjt9j-3" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;dentry_info&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;key&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;D#{pid}#{name}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;value&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;pid_(int64):&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;name_(string):&amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p&gt;id_(int64):&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="80" width="200" height="358" as="geometry" />
+        </mxCell>
+        <mxCell id="_BSQofPdGsiH7_2sjt9j-4" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;lock_info&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;key&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;L#{id}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;value&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;inode_id_(int64):&amp;nbsp;&lt;/p&gt;&lt;p&gt;lock_range_(string):&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="80" width="200" height="358" as="geometry" />
+        </mxCell>
+        <mxCell id="_BSQofPdGsiH7_2sjt9j-5" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;attribute_info&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;key&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;X#{id}#{name}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;value&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;value_(string):&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="680" width="200" height="311" as="geometry" />
+        </mxCell>
+        <mxCell id="_BSQofPdGsiH7_2sjt9j-6" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;stat_info&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;key&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;S#{type}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;value&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;value_(int64)&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="680" width="200" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="_BSQofPdGsiH7_2sjt9j-7" value="meta持久化信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="920" y="40" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-01T14:03:27.217Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="44ALxARBkHxKfKSk9MY8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-01-01T14:17:39.655Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="tVGLQbHE08D-bdLi8srb" type="github" pages="6">
   <diagram id="nIT_IkrwmGnnsX0-wiIh" name="arch">
     <mxGraphModel dx="1975" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1885,6 +1885,15 @@
         </mxCell>
         <mxCell id="piteZEwa-Pvw_Qbf0beC-40" value="storage engine" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="175" y="400" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="piteZEwa-Pvw_Qbf0beC-41" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;blob_info&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;key&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;B#{id}#{offset}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;value&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;type_(string):&amp;nbsp;&lt;/p&gt;&lt;p&gt;data_(string):&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="80.5" width="200" height="311" as="geometry" />
+        </mxCell>
+        <mxCell id="piteZEwa-Pvw_Qbf0beC-42" value="data持久化信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="920" y="40.5" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="piteZEwa-Pvw_Qbf0beC-43" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;stat_info&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;key&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;S#{type}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;value&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;value_(int64)&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="80.5" width="200" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

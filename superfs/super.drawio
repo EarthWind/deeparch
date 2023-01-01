@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-01T13:14:51.307Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="s4jO919zLuWBk9kC5NRh" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-01-01T13:22:22.289Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="1BeAvmafLVN-9YilLZ8q" type="github" pages="6">
   <diagram id="nIT_IkrwmGnnsX0-wiIh" name="arch">
     <mxGraphModel dx="1975" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -305,7 +305,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="v848u6rf4puuXTLR6dN5" name="superfs">
-    <mxGraphModel dx="1975" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1659" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -748,6 +748,33 @@
         </mxCell>
         <mxCell id="n52CJHXcgMEVl7hcd3do-31" value="default pool" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="381.2500000000001" y="230" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xjdgit2DBT4jrQa49D8R-1" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;size=0.07407407407407407;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="920" y="60" width="240" height="289.82" as="geometry" />
+        </mxCell>
+        <mxCell id="Xjdgit2DBT4jrQa49D8R-2" value="集群组件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="59.99999999999999" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xjdgit2DBT4jrQa49D8R-12" value="&lt;span style=&quot;&quot;&gt;mon&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; :&amp;nbsp; 负责管理集群；&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;align=left;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="930" y="90" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Xjdgit2DBT4jrQa49D8R-13" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: center;&quot;&gt;meta&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;:&amp;nbsp; 负责存储文件系统元数据；&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;align=left;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="930" y="120" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Xjdgit2DBT4jrQa49D8R-14" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: center;&quot;&gt;data&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; :&amp;nbsp; 负责存储文件系统的数据；&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;align=left;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="930" y="150.79" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Xjdgit2DBT4jrQa49D8R-15" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: center;&quot;&gt;module&amp;nbsp; &amp;nbsp;:&amp;nbsp; 内核态的文件系统客户端；&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;align=left;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="930" y="184.91" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Xjdgit2DBT4jrQa49D8R-16" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: center;&quot;&gt;fuse&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; :&amp;nbsp; 用户态的文件系统客户端；&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;align=left;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="930" y="219.64" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Xjdgit2DBT4jrQa49D8R-17" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: center;&quot;&gt;lisuperfs :&amp;nbsp; 文件系统的用户态接口库；&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;align=left;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="930" y="250" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Xjdgit2DBT4jrQa49D8R-18" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: center;&quot;&gt;libadm&amp;nbsp; &amp;nbsp; :&amp;nbsp; 文件系统管理接口库；&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;align=left;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="930" y="280" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

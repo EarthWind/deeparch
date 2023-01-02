@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-02T13:00:50.437Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="jT-hPNqg2huO6otdR3EU" version="20.7.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-01-02T13:01:21.496Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="AFNaK1XbBijeFxS-gU9y" version="20.7.4" type="github" pages="7">
   <diagram id="nIT_IkrwmGnnsX0-wiIh" name="arch">
     <mxGraphModel dx="2074" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1401,7 +1401,7 @@
         <mxCell id="N69bL4_D_eup0g3RY7ZT-42" value="&lt;b&gt;mon持久化信息&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="850" y="40" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wqFY0SRMF9JkzkDSxbb_-1" value="&lt;h1&gt;permission_info&lt;/h1&gt;&lt;p&gt;key&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;X#{uid}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;value&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;id_(int64):&amp;nbsp;&lt;/p&gt;&lt;p&gt;ip_(string):&amp;nbsp;&lt;/p&gt;&lt;p&gt;os_(string):&lt;/p&gt;&lt;p&gt;mount_type_(string):&amp;nbsp;&lt;/p&gt;&lt;p&gt;mount_point_(string):&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;create_time_(string):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;update_time_(string):&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wqFY0SRMF9JkzkDSxbb_-1" value="&lt;h1&gt;permission_info&lt;/h1&gt;&lt;p&gt;key&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;X#{uid}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;value&lt;/p&gt;&lt;p&gt;-------------------&lt;/p&gt;&lt;p&gt;permission_(string):&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1440" y="718.5" width="200" height="440.5" as="geometry" />
         </mxCell>
       </root>

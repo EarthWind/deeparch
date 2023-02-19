@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-19T08:39:22.015Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.3" etag="8ofe6KNjDZHckp_Wg2NN" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-02-19T08:40:46.328Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.3" etag="RrQpkLI9pehXPK299V1j" type="github" pages="4">
   <diagram id="N5d8Xmekq0FIWtA8UG6T" name="arcitecture">
     <mxGraphModel dx="925" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -155,6 +155,9 @@
         <mxCell id="85tSOclc1oCdCPwvX2sM-53" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="85tSOclc1oCdCPwvX2sM-19" target="85tSOclc1oCdCPwvX2sM-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="85tSOclc1oCdCPwvX2sM-55" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="85tSOclc1oCdCPwvX2sM-19" target="85tSOclc1oCdCPwvX2sM-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="85tSOclc1oCdCPwvX2sM-19" value="daemon" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="200" width="120" height="40" as="geometry" />
         </mxCell>
@@ -223,6 +226,9 @@
         </mxCell>
         <mxCell id="85tSOclc1oCdCPwvX2sM-52" value="health_ctr" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="85tSOclc1oCdCPwvX2sM-54" value="heart_beat" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="860" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-19T11:07:30.431Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.3" etag="LS2ieHKNX5fMth4q-1Ay" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-02-20T01:09:51.896Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.3" etag="5HXCvny8VonK5Jh58eo3" type="github" pages="4">
   <diagram id="N5d8Xmekq0FIWtA8UG6T" name="arcitecture">
     <mxGraphModel dx="925" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FkfHG8LWxEAU3Ykb4FFA" name="rserver">
-    <mxGraphModel dx="2074" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="893" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -221,7 +221,7 @@
         <mxCell id="85tSOclc1oCdCPwvX2sM-44" value="user_mgr" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="550" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="85tSOclc1oCdCPwvX2sM-48" value="replicat_ctr" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="85tSOclc1oCdCPwvX2sM-48" value="replicate_ctr" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="600" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="85tSOclc1oCdCPwvX2sM-49" value="rebalance_ctr" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -244,6 +244,33 @@
         </mxCell>
         <mxCell id="85tSOclc1oCdCPwvX2sM-59" value="负责存储集群的配置信息，会保存都zk中，服务启动时从zk中获取；" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1040" y="80" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="85tSOclc1oCdCPwvX2sM-63" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="85tSOclc1oCdCPwvX2sM-61" target="85tSOclc1oCdCPwvX2sM-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="85tSOclc1oCdCPwvX2sM-61" value="replicate_ctr" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="85tSOclc1oCdCPwvX2sM-62" value="负责集群数据的副本修复，容量均衡；" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="560" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="85tSOclc1oCdCPwvX2sM-64" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="85tSOclc1oCdCPwvX2sM-65" target="85tSOclc1oCdCPwvX2sM-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="85tSOclc1oCdCPwvX2sM-65" value="time_mgr" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="85tSOclc1oCdCPwvX2sM-66" value="定时器；" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="200" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="85tSOclc1oCdCPwvX2sM-67" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="85tSOclc1oCdCPwvX2sM-68" target="85tSOclc1oCdCPwvX2sM-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="85tSOclc1oCdCPwvX2sM-68" value="zone_mgr" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="85tSOclc1oCdCPwvX2sM-69" value="定时器；" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="320" width="280" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

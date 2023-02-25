@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T01:52:49.832Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="xaiHK_-Wur-kcnymQ8b1" version="20.8.20" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-02-25T03:33:23.785Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="PjNaJSIL_6PoN7IOpGg8" version="20.8.21" type="github" pages="4">
   <diagram id="N5d8Xmekq0FIWtA8UG6T" name="arcitecture">
-    <mxGraphModel dx="954" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,7 +58,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FkfHG8LWxEAU3Ykb4FFA" name="rserver">
-    <mxGraphModel dx="1912" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1147" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -243,16 +243,16 @@
           <mxGeometry x="880" y="80" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="85tSOclc1oCdCPwvX2sM-59" value="负责存储集群的配置信息，会保存都zk中，服务启动时从zk中获取；" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="80" width="280" height="80" as="geometry" />
+          <mxGeometry x="1040" y="80" width="360" height="80" as="geometry" />
         </mxCell>
         <mxCell id="85tSOclc1oCdCPwvX2sM-63" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="85tSOclc1oCdCPwvX2sM-61" target="85tSOclc1oCdCPwvX2sM-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="85tSOclc1oCdCPwvX2sM-61" value="replicate_ctr" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="880" y="560" width="120" height="40" as="geometry" />
+          <mxGeometry x="880" y="720" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="85tSOclc1oCdCPwvX2sM-62" value="负责集群数据的副本修复，容量均衡；" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="560" width="280" height="80" as="geometry" />
+          <mxGeometry x="1040" y="720" width="360" height="80" as="geometry" />
         </mxCell>
         <mxCell id="85tSOclc1oCdCPwvX2sM-64" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="85tSOclc1oCdCPwvX2sM-65" target="85tSOclc1oCdCPwvX2sM-66" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -261,7 +261,7 @@
           <mxGeometry x="880" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="85tSOclc1oCdCPwvX2sM-66" value="定时器；" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="200" width="280" height="80" as="geometry" />
+          <mxGeometry x="1040" y="200" width="360" height="80" as="geometry" />
         </mxCell>
         <mxCell id="85tSOclc1oCdCPwvX2sM-67" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="85tSOclc1oCdCPwvX2sM-68" target="85tSOclc1oCdCPwvX2sM-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -270,7 +270,25 @@
           <mxGeometry x="880" y="320" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="85tSOclc1oCdCPwvX2sM-69" value="zone管理器；zone是一组磁盘的组合，是上下电的基本单位，用于归档存储；" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="320" width="280" height="80" as="geometry" />
+          <mxGeometry x="1040" y="320" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lhytBW4niDFc8u3bMZwd-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lhytBW4niDFc8u3bMZwd-2" target="lhytBW4niDFc8u3bMZwd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lhytBW4niDFc8u3bMZwd-2" value="mserver_mgr" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lhytBW4niDFc8u3bMZwd-3" value="负责mserver的管理，raft组维护以及mserver的元数据信息维护；&lt;br&gt;std::unordered_map&amp;lt;meta_role, ms_meta*&amp;gt;;&lt;br&gt;std::unordered_map&amp;lt;group, std::vector&amp;lt;meta_role&amp;gt;&amp;gt;;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="440" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lhytBW4niDFc8u3bMZwd-4" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lhytBW4niDFc8u3bMZwd-5" target="lhytBW4niDFc8u3bMZwd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lhytBW4niDFc8u3bMZwd-5" value="pool_table" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lhytBW4niDFc8u3bMZwd-6" value="负责存储池的管理；&lt;br&gt;std::map&amp;lt;p_name,p_meta&amp;gt;;&lt;br&gt;std::map&amp;lt;p_id,p_name&amp;gt;;&lt;br&gt;std::map&amp;lt;p_id,std::vector&amp;lt;p_meta_role&amp;gt;&amp;gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="560" width="360" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

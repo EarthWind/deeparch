@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-26T15:24:04.689Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="FaUxZEVZow_n7P460aZR" version="20.8.23" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-03-04T07:44:23.436Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="HtnjCEGBnVkIVnd3LuwV" version="20.8.23" type="github" pages="4">
   <diagram id="N5d8Xmekq0FIWtA8UG6T" name="arcitecture">
-    <mxGraphModel dx="1195" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="714" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,20 +55,20 @@
         <mxCell id="tsfLYOpmj_f98KLFveLr-15" value="client" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="220" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cyJrG0wH-FrEocP2KH8U-4" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="cyJrG0wH-FrEocP2KH8U-4" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="80" y="110" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="cyJrG0wH-FrEocP2KH8U-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cyJrG0wH-FrEocP2KH8U-4">
+        <mxCell id="cyJrG0wH-FrEocP2KH8U-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="cyJrG0wH-FrEocP2KH8U-4" vertex="1">
           <mxGeometry width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="cyJrG0wH-FrEocP2KH8U-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Apache_ZooKeeper_logo.svg/1200px-Apache_ZooKeeper_logo.svg.png;imageBorder=none;" vertex="1" parent="cyJrG0wH-FrEocP2KH8U-4">
+        <mxCell id="cyJrG0wH-FrEocP2KH8U-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Apache_ZooKeeper_logo.svg/1200px-Apache_ZooKeeper_logo.svg.png;imageBorder=none;" parent="cyJrG0wH-FrEocP2KH8U-4" vertex="1">
           <mxGeometry x="2.9799999999999898" y="5" width="74.03" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="FkfHG8LWxEAU3Ykb4FFA" name="rserver">
-    <mxGraphModel dx="2593" dy="1086" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1193" dy="861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -259,10 +259,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="85tSOclc1oCdCPwvX2sM-61" value="replicate_ctr" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="880" y="720" width="120" height="40" as="geometry" />
+          <mxGeometry x="880" y="620" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="85tSOclc1oCdCPwvX2sM-62" value="负责集群数据的副本修复，容量均衡；" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="720" width="360" height="80" as="geometry" />
+          <mxGeometry x="1040" y="620" width="360" height="80" as="geometry" />
         </mxCell>
         <mxCell id="85tSOclc1oCdCPwvX2sM-64" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="85tSOclc1oCdCPwvX2sM-65" target="85tSOclc1oCdCPwvX2sM-66" edge="1">
           <mxGeometry relative="1" as="geometry" />

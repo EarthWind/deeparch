@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-19T10:40:53.240Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="GZ6SSEf2jwwuanAGQEdy" version="22.1.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-11-19T10:41:29.169Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="hsRP0Fp3C35O9cymw4kL" version="22.1.3" type="github" pages="4">
   <diagram id="N5d8Xmekq0FIWtA8UG6T" name="arcitecture">
     <mxGraphModel dx="1121" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -521,7 +521,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="gXjjD0P48IjPj1rYfW77" name="dserver">
+  <diagram id="gXjjD0P48IjPj1rYfW77" name="cserver">
     <mxGraphModel dx="1121" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />

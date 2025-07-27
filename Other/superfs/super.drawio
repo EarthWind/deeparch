@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.5 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.5" pages="7">
   <diagram id="nIT_IkrwmGnnsX0-wiIh" name="arch">
-    <mxGraphModel dx="2066" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="984" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -117,8 +117,8 @@
         <mxCell id="3SekBFkrdIsGFHvV_spv-34" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="240" y="310" width="60.87" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3SekBFkrdIsGFHvV_spv-35" value="mgr" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="250" y="309" width="40" height="30" as="geometry" />
+        <mxCell id="3SekBFkrdIsGFHvV_spv-35" value="manager" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="235" y="309" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3SekBFkrdIsGFHvV_spv-36" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.34;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;strokeColor=#000000;" parent="1" source="3SekBFkrdIsGFHvV_spv-37" target="3SekBFkrdIsGFHvV_spv-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -147,8 +147,8 @@
         <mxCell id="3SekBFkrdIsGFHvV_spv-44" value="ftp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="520.96" y="280" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3SekBFkrdIsGFHvV_spv-45" value="mgr" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="250.44" y="280" width="40" height="30" as="geometry" />
+        <mxCell id="3SekBFkrdIsGFHvV_spv-45" value="manager" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="235.44" y="280" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3SekBFkrdIsGFHvV_spv-46" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeColor=#000000;" parent="1" source="3SekBFkrdIsGFHvV_spv-47" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -305,7 +305,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="v848u6rf4puuXTLR6dN5" name="superfs">
-    <mxGraphModel dx="2074" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2172,7 +2172,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NPidv8vFKjQu_ZR9kJXq" name="message">
-    <mxGraphModel dx="2074" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />

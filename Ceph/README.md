@@ -1,3 +1,6 @@
 # Ceph
 
-![CephFS](./cephfs.drawio.png)
+### Ceph
+![Ceph](./ceph-Ceph.drawio.png)
+
+![CephFS](./ceph-CephFS.drawio.png)

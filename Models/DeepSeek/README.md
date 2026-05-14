@@ -9,3 +9,6 @@
 
 ### DeepSeek V3.2(671B)
 ![DeepSeek V3.2(671B)](./DeepSeek%20V3.2(671B).drawio.png)
+
+### DeepSeek V3/R1(671b)
+![DeepSeek V3/R1(671b)](./DeepSeek%20V3-R1(671B).drawio.png)

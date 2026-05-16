@@ -1,3 +1,3 @@
 # drawio
 
-Arhitecture diagram for open source project.
+Arhitecture diagram for llm and open source project.

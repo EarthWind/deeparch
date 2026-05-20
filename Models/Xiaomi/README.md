@@ -1,4 +1,4 @@
-# MiniMax
+# Xiaomi
 
 ### Xiaomi-MiMo-V2.5-Pro(1.02T)
 ![Xiaomi-MiMo-V2.5-Pro(1.02T)](./Xiaomi-MiMo-V2.5-Pro(1.02T).drawio.png)

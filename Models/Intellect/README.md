@@ -1,0 +1,5 @@
+# INTELLECT
+
+
+### INTELLECT-3-(106B)
+![INTELLECT-3-(106B)](./INTELLECT-3-(106B).drawio.png)

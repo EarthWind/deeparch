@@ -5,3 +5,6 @@
 
 ### GPT-OSS-(20B)
 ![GPT-OSS-(20B)](./GPT-OSS-(20B).drawio.png)
+
+### GPT-2-XL-(1.5B)
+![GPT-2-XL-(1.5B)](./GPT-2-XL-(1.5B).drawio.png)

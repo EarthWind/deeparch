@@ -1,13 +1,13 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.5 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.5">
   <diagram name="第 1 页" id="gDDcBXdPQSWDJY1exq4R">
-    <mxGraphModel dx="-1389" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1275" dy="2185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="MMPf3fNA2HwyMx4TMulO-1" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#000000;strokeWidth=2;fillColor=#d9d9d9;" vertex="1" parent="1">
           <mxGeometry x="2872.5" y="180" width="590" height="1195" as="geometry" />
         </mxCell>
-        <mxCell id="MMPf3fNA2HwyMx4TMulO-2" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#000000;strokeWidth=3;fillColor=light-dark(#5ca7ef, #3F6E98);opacity=88;" vertex="1" parent="1">
+        <mxCell id="MMPf3fNA2HwyMx4TMulO-2" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#000000;strokeWidth=3;fillColor=light-dark(#0568c6, #3F6E98);opacity=88;" vertex="1" parent="1">
           <mxGeometry x="2952.5" y="375" width="430" height="910" as="geometry" />
         </mxCell>
         <mxCell id="MMPf3fNA2HwyMx4TMulO-3" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;strokeColor=#000000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MMPf3fNA2HwyMx4TMulO-12" target="MMPf3fNA2HwyMx4TMulO-11">
@@ -55,13 +55,13 @@
         <mxCell id="MMPf3fNA2HwyMx4TMulO-14" value="{" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontFamily=Times New Roman;fontSize=92;fontColor=#000000;rotation=-30;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="2912.5" y="1042.5" width="70" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="MMPf3fNA2HwyMx4TMulO-15" value="&lt;font style=&quot;color: light-dark(rgb(107, 173, 236), rgb(62, 62, 62));&quot;&gt;78 X&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=26;fontColor=#1e96ed;align=center;verticalAlign=middle;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="MMPf3fNA2HwyMx4TMulO-15" value="&lt;font style=&quot;color: light-dark(rgb(107, 173, 236), rgb(30, 118, 200));&quot;&gt;78 X&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=26;fontColor=#1e96ed;align=center;verticalAlign=middle;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="2872.5" y="1120" width="80" height="42" as="geometry" />
         </mxCell>
         <mxCell id="MMPf3fNA2HwyMx4TMulO-16" value="Sample input text" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=22;fontFamily=Courier New;fontColor=#000000;align=center;verticalAlign=middle;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="3050" y="1490" width="235" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="MMPf3fNA2HwyMx4TMulO-17" value="Vocabulary size of&amp;nbsp;&lt;font style=&quot;color: light-dark(rgb(107, 173, 236), rgb(62, 62, 62));&quot;&gt;155k&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontStyle=1;fontSize=28;fontColor=#000000;fontSize=26;" vertex="1" parent="1">
+        <mxCell id="MMPf3fNA2HwyMx4TMulO-17" value="Vocabulary size of&amp;nbsp;&lt;font style=&quot;color: light-dark(rgb(30, 118, 200), rgb(62, 62, 62));&quot;&gt;155k&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontStyle=1;fontSize=28;fontColor=#000000;fontSize=26;" vertex="1" parent="1">
           <mxGeometry x="3340" y="100" width="330" height="55" as="geometry" />
         </mxCell>
         <mxCell id="MMPf3fNA2HwyMx4TMulO-18" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=5;strokeColor=#000000;dashed=1;dashPattern=1 1;exitX=0.061;exitY=0.944;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.941;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MMPf3fNA2HwyMx4TMulO-17" target="MMPf3fNA2HwyMx4TMulO-6">

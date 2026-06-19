@@ -1,5 +1,8 @@
 # GLM
 
+### GLM-5.2-(744B)
+![GLM-5.2-(744B)](./GLM-5.2-(744B).drawio.png)
+
 ### GLM-5.1(744B)
 ![GLM-5.1(744B)](./GLM-5.1(744B).drawio.png)
 

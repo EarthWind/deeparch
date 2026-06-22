@@ -1,5 +1,8 @@
 # Gemma
 
+### Gemma-4(12B)
+![Gemma-4(12B)](./Gemma-4(12B).drawio.png)
+
 ### Gemma-4-(E4B)
 ![Gemma-4-(E4B)](./Gemma-4-(E4B).drawio.png)
 

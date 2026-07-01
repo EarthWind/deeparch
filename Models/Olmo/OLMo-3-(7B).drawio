@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.5 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.5">
   <diagram name="第 1 页" id="2FRKaSgyzawID9X7VD2N">
-    <mxGraphModel dx="-415" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="470" dy="1717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,8 +70,8 @@
             <mxPoint x="3082.5" y="245" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lxzUaij_zwo20SyJUVzD-19" value="Supported&lt;br&gt;context length&lt;br&gt;of &lt;font style=&quot;color: light-dark(rgb(241, 83, 157), rgb(62, 62, 62));&quot;&gt;65k&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 204, 0);&quot;&gt;&amp;nbsp;&lt;/font&gt;tokens" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontStyle=1;fontSize=28;fontColor=#000000;fontSize=26;" parent="1" vertex="1">
-          <mxGeometry x="2650" y="1150" width="195" height="120" as="geometry" />
+        <mxCell id="lxzUaij_zwo20SyJUVzD-19" value="Supported&lt;br&gt;context length&lt;br&gt;of &lt;font style=&quot;color: light-dark(rgb(241, 83, 157), rgb(62, 62, 62));&quot;&gt;65k&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 204, 0);&quot;&gt;&amp;nbsp;&lt;/font&gt;tokens,&lt;div&gt;YaRN only for global layers&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontStyle=1;fontSize=28;fontColor=#000000;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="2650" y="1150" width="195" height="170" as="geometry" />
         </mxCell>
         <mxCell id="lxzUaij_zwo20SyJUVzD-20" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=5;strokeColor=#000000;dashed=1;dashPattern=1 1;entryX=0.005;entryY=0.899;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lxzUaij_zwo20SyJUVzD-19" target="lxzUaij_zwo20SyJUVzD-13" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -253,7 +253,7 @@
             <mxPoint x="3313" y="1343" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wjzndT_vgckdF6D-5lTE-1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="lxzUaij_zwo20SyJUVzD-52" target="lxzUaij_zwo20SyJUVzD-10">
+        <mxCell id="wjzndT_vgckdF6D-5lTE-1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="lxzUaij_zwo20SyJUVzD-52" target="lxzUaij_zwo20SyJUVzD-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3015" y="1098" as="sourcePoint" />
             <mxPoint x="3066" y="1097" as="targetPoint" />

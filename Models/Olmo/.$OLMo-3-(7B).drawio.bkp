@@ -37,7 +37,7 @@
         <mxCell id="lxzUaij_zwo20SyJUVzD-8" value="Feed forward" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;strokeColor=#000000;strokeWidth=3;fillColor=#d9d9d9;fontFamily=Arial;fontSize=18;fontColor=#000000;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="3087.5" y="661" width="160" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="lxzUaij_zwo20SyJUVzD-9" value="Post-RMSNorm 2" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;strokeColor=#000000;strokeWidth=3;fillColor=#ffffff;fontFamily=Arial;fontSize=18;fontColor=#000000;align=center;verticalAlign=middle;" parent="1" vertex="1">
+        <mxCell id="lxzUaij_zwo20SyJUVzD-9" value="Post-RMSNorm 2" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;strokeColor=light-dark(#F1539D,#EDEDED);strokeWidth=3;fillColor=#ffffff;fontFamily=Arial;fontSize=18;fontColor=#000000;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="3087.5" y="520" width="160" height="42" as="geometry" />
         </mxCell>
         <mxCell id="lxzUaij_zwo20SyJUVzD-10" value="&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;3:1(local:global) &lt;/font&gt;&lt;font style=&quot;color: light-dark(rgb(241, 83, 157), rgb(62, 62, 62));&quot;&gt;sliding&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(241, 83, 157), rgb(62, 62, 62));&quot;&gt;window&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt; grouped-query&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;attention&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#000000;strokeWidth=2;fillColor=#595959;fontFamily=Arial;fontSize=20;fontColor=#ffffff;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
@@ -133,7 +133,7 @@
         <mxCell id="lxzUaij_zwo20SyJUVzD-33" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#000000;shadow=0;dashed=0;shape=mxgraph.ios7.icons.add;" parent="1" vertex="1">
           <mxGeometry x="3152.5" y="436" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lxzUaij_zwo20SyJUVzD-34" value="Post-RMSNorm 1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;strokeColor=#000000;strokeWidth=3;fillColor=#ffffff;fontFamily=Arial;fontSize=18;fontColor=#000000;align=center;verticalAlign=middle;" parent="1" vertex="1">
+        <mxCell id="lxzUaij_zwo20SyJUVzD-34" value="Post-RMSNorm 1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;strokeColor=light-dark(#f1539d, #ededed);strokeWidth=3;fillColor=#ffffff;fontFamily=Arial;fontSize=18;fontColor=#000000;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="3087.5" y="950" width="160" height="42" as="geometry" />
         </mxCell>
         <mxCell id="lxzUaij_zwo20SyJUVzD-35" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=1;" parent="1" target="lxzUaij_zwo20SyJUVzD-10" edge="1">
@@ -232,8 +232,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lxzUaij_zwo20SyJUVzD-50" value="&lt;font style=&quot;color: light-dark(rgb(241, 83, 157), rgb(62, 62, 62));&quot;&gt;32&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt; attention heads&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(241, 83, 157), rgb(62, 62, 62));&quot;&gt;32&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt; key &amp;amp; value heads&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontStyle=1;fontSize=28;fontColor=#000000;fontSize=27;" parent="1" vertex="1">
-          <mxGeometry x="3662" y="1120" width="338" height="80" as="geometry" />
+        <mxCell id="lxzUaij_zwo20SyJUVzD-50" value="&lt;font style=&quot;color: light-dark(rgb(241, 83, 157), rgb(62, 62, 62));&quot;&gt;32&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt; attention heads&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(241, 83, 157), rgb(62, 62, 62));&quot;&gt;32&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt; key &amp;amp; value heads&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;(regular multi-head attetion)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontStyle=1;fontSize=28;fontColor=#000000;fontSize=27;" parent="1" vertex="1">
+          <mxGeometry x="3650" y="1140" width="338" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lxzUaij_zwo20SyJUVzD-51" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=5;strokeColor=#000000;dashed=1;dashPattern=1 1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="lxzUaij_zwo20SyJUVzD-50" target="lxzUaij_zwo20SyJUVzD-10" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -251,6 +251,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3567" y="1405" as="sourcePoint" />
             <mxPoint x="3313" y="1343" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wjzndT_vgckdF6D-5lTE-1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="lxzUaij_zwo20SyJUVzD-52" target="lxzUaij_zwo20SyJUVzD-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3015" y="1098" as="sourcePoint" />
+            <mxPoint x="3066" y="1097" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

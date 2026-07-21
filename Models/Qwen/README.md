@@ -9,6 +9,9 @@
 ### Qwen3.5(397B)
 ![Qwen3.5(397B)](./Qwen3.5(397B).drawio.png)
 
+### Qwen3-Next-(80B-A3B)
+![Qwen3-Next-(80B-A3B)](./Qwen3-Next-(80B-A3B).drawio.png)
+
 ### Qwen3(Coder-Flash)(30B-A3B)
 ![Qwen3(Coder-Flash)(30B-A3B)](./Qwen3(Coder-Flash)(30B-A3B).drawio.png)
 

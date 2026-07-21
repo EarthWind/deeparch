@@ -1,5 +1,8 @@
 # Nemotron
 
+### Nemotron-3-Ultra-(550B-A55B)
+![Nemotron-3-Ultra-(550B-A55B)](./Nemotron-3-Ultra-(550B-A55B).drawio.png)
+
 ### Nemotron-3-Nano-(4B)
 ![Nemotron-3-Nano-(4B)](./Nemotron-3-Nano-(4B).drawio.png)
 

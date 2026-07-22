@@ -23,6 +23,7 @@ GitHub.
 [Grok](./Models/Grok/README.md) ·
 [Hunyuan](./Models/Hunyuan/README.md) ·
 [INTELLECT](./Models/Intellect/README.md) ·
+[Inkling](./Models/Inkling/README.md) ·
 [Kimi](./Models/Kimi/README.md) ·
 [Laguna](./Models/Laguna/README.md) ·
 [LFM](./Models/LFM/README.md) ·
